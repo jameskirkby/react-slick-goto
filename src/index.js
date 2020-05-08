@@ -10,6 +10,7 @@ let sliderElement = {}
 const SlickGoTo = (props) => {
   const [slideIndex, setSlideIndex] = useState(0)
   const [updateCount, setUpdateCount] = useState(0)
+
   const settings = {
     dots: false,
     infinite: true,
@@ -53,4 +54,3 @@ const SlickGoTo = (props) => {
 }
 
 ReactDOM.render(<SlickGoTo />, document.getElementById('root'))
-
